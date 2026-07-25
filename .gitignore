@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.venv311/
+
+# Secrets — never commit these
+.env
+token.json
+credentials.json
+
+# Generated reports (created at runtime)
+*.pdf
+reports/
+
+# Runtime logs and captured syslog (created at runtime)
+*.log
+lab_syslog.log
+st.out.log
+st.err.log
+streamlit.out
+streamlit.err
+lab_collector.out
+lab_collector.err
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
