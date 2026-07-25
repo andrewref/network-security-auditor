@@ -29,3 +29,6 @@ lab_collector.err
 .DS_Store
 .idea/
 .vscode/
+
+# Raw screenshot source folder (kept local; committed copies live in docs/screenshots/)
+Images/

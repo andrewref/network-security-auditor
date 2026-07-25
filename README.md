@@ -11,6 +11,26 @@ traffic, real syslog. Nothing is mocked.
 
 ---
 
+## Screenshots
+
+**Pending approvals: one finding per attacked router**
+
+![Pending approvals](docs/screenshots/1-pending-approvals.png)
+
+**Live findings with attacker IPs, usernames, timing, and evidence**
+
+![Live findings](docs/screenshots/2-findings-detail.png)
+
+**Live dashboard detecting an attack in real time**
+
+![Live dashboard](docs/screenshots/3-live-dashboard.png)
+
+**Generated PDF audit report (risk table, MITRE ATT&CK, evidence)**
+
+![PDF report](docs/screenshots/4-pdf-report.png)
+
+---
+
 ## What it does
 
 1. Two containerized routers forward their real syslog over UDP to the app.
